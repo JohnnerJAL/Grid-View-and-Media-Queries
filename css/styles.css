@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+}
+body {
+  background-color: rgb(138, 180, 219)
+}
+/*Navigation*/
+nav {
+  background-color: rgba(101, 75, 196, 0.4);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+nav a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  box-shadow: 2px 2px 5px 1px blue, -2px -2px 5px 1px blue;
+  background-color: white;
+  margin-left: 40px;
+  padding: 5px;
+  border-radius: 8px;
+}
+/*---------------main----------------*/
+section {
+  text-align: center;
+}
+/*.container-card {
+  padding: 40px;
+  background-color: chartreuse;
+}*/
+.card {
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: justify;
+}
+.card h5 {
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+}
