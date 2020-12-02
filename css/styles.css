@@ -2,15 +2,16 @@ header {
   text-align: center;
 }
 body {
-  background-color: rgb(138, 180, 219)
+  background-color: rgb(138, 180, 219);
 }
 /*Navigation*/
 nav {
   background-color: rgba(101, 75, 196, 0.4);
-  height: 50px;
+  padding: 10px;
   display: flex;
   align-items: center;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 nav a {
   text-decoration: none;
@@ -19,6 +20,7 @@ nav a {
   color: black;
   box-shadow: 2px 2px 5px 1px blue, -2px -2px 5px 1px blue;
   background-color: white;
+  margin: 10px;
   margin-left: 40px;
   padding: 5px;
   border-radius: 8px;
